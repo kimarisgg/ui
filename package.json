@@ -25,9 +25,11 @@
   "dependencies": {
     "@nuxt/kit": "^3.11.2",
     "@unocss/nuxt": "^0.59.4",
-    "lucide-vue-next": "^0.376.0",
     "nuxt-lucide-icons": "^1.0.4",
     "radix-vue": "^1.7.3"
+  },
+  "peerDependencies": {
+    "lucide-vue-next": "^0.376.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
