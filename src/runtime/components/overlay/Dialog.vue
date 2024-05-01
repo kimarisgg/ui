@@ -7,8 +7,8 @@ import {
   DialogPortal,
   DialogRoot,
   DialogTitle,
-  DialogTrigger,
-} from 'radix-vue'
+  DialogTrigger
+} from "radix-vue"
 
 defineProps({
   triggerTitle: {
@@ -21,7 +21,7 @@ defineProps({
   },
   dialogDescription: {
     type: String,
-    default: () => "Dialog"
+    default: () => ""
   }
 })
 </script>
@@ -46,10 +46,7 @@ defineProps({
         <div class="mt-4 flex justify-end">
           <slot name="actions"></slot>
         </div>
-        <DialogClose
-          class="absolute top-3 right-3 hover:text-neutral-400"
-          aria-label="Close"
-        >
+        <DialogClose class="absolute top-3 right-3 hover:text-neutral-400" aria-label="Close">
           <LucideX />
         </DialogClose>
       </DialogContent>
