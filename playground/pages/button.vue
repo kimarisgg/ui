@@ -1,5 +1,5 @@
 <template>
-  <div class="flex gap-4">
+  <div class="flex gap-4 justify-center">
     <UButton>Toggle</UButton>
     <UButton color="primary">Info</UButton>
     <UButton color="warning">Warning</UButton>
