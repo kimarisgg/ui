@@ -1,16 +1,12 @@
 <script lang="ts" setup>
 defineProps({
-  height: {
+  extraClass: {
     type: String,
-    default: () => "h-4"
-  },
-  rounded: {
-    type: String,
-    default: () => "rounded-md"
+    default: () => ""
   }
 })
 </script>
 
 <template>
-  <div class="animate-pulse bg-neutral-800" :class="[height, rounded].join(' ')" />
+  <div :class="['animate-pulse bg-neutral-800', extraClass].join(' ')" />
 </template>
