@@ -1,3 +1,16 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import { Label } from 'radix-vue'
 
-<template></template>
+defineProps({
+  forId: {
+    type: String,
+    default: () => ""
+  }
+})
+</script>
+
+<template>
+  <Label class="font-semibold" :for="forId">
+    <slot></slot>
+  </Label>
+</template>
