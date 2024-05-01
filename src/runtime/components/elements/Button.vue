@@ -6,7 +6,7 @@ type ButtonType = "button" | "submit" | "reset"
 
 const props = defineProps({
   type: {
-    type: Object as PropType<ButtonType>,
+    type: String as PropType<ButtonType>,
     default: "button"
   },
   color: {
