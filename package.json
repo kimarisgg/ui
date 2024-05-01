@@ -17,7 +17,7 @@
     "build": "nuxt-module-build build",
     "deps:check": "npx npm-check-updates -i",
     "dev:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare",
-    "play": "nuxi dev playground",
+    "play": "nuxi dev playground --port 3001",
     "prepare": "husky"
   },
   "author": "",
@@ -68,7 +68,7 @@
     "printWidth": 120
   },
   "lint-staged": {
-    "*.ts": [
+    "*.{ts,vue}": [
       "prettier --write"
     ]
   }
