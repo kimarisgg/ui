@@ -25,7 +25,7 @@ const componentClass = computed(() => {
 </script>
 
 <template>
-  <component :is="as" :class="componentClass">
+  <component :is="as" :class="[componentClass, 'font-semibold'].join(' ')">
     <slot />
   </component>
 </template>
