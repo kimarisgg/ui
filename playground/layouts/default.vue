@@ -4,6 +4,7 @@
   <UNavMenu>
     <template #menu-items>
       <UNavMenuItem href="/card"> Card </UNavMenuItem>
+      <UNavMenuItem href="/dialog"> Dialog </UNavMenuItem>
       <UNavMenuItem href="/heading"> Heading </UNavMenuItem>
       <UNavMenuItem href="/skeleton"> Skeleton </UNavMenuItem>
     </template>
