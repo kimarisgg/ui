@@ -39,6 +39,13 @@ export default defineNuxtModule<ModuleOptions>({
     await installModule("nuxt-lucide-icons")
 
     await addComponentsDir({
+      path: resolve(runtimeDir, "components", "elements"),
+      prefix: options.prefix,
+      global: options.global,
+      watch: false
+    })
+
+    await addComponentsDir({
       path: resolve(runtimeDir, "components", "forms"),
       prefix: options.prefix,
       global: options.global,

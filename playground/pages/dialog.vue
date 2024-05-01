@@ -8,7 +8,7 @@
     </div>
     <template #actions>
       <UDialogAction>
-        <button title="Some Action">Some Action</button>
+        <UButton>Some Action</UButton>
       </UDialogAction>
     </template>
   </UDialog>
