@@ -8,6 +8,7 @@
         <UNavMenuItem href="/card"> Card </UNavMenuItem>
         <UNavMenuItem href="/dialog"> Dialog </UNavMenuItem>
         <UNavMenuItem href="/heading"> Heading </UNavMenuItem>
+        <UNavMenuItem href="/pin-input"> PinInput </UNavMenuItem>
         <UNavMenuItem href="/skeleton"> Skeleton </UNavMenuItem>
         <UNavMenuItem href="/switch"> Switch </UNavMenuItem>
         <UNavMenuItem href="/tooltip"> Tooltip </UNavMenuItem>
