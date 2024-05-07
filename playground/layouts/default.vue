@@ -15,7 +15,7 @@
       </template>
     </UNavMenu>
   </header>
-  <UContainer :constrained="true">
+  <UContainer class="max-w-7xl">
     <main class="flex flex-col gap-4">
       <slot></slot>
     </main>
