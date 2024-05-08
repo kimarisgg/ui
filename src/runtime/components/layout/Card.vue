@@ -1,7 +1,9 @@
 <script lang="ts" setup>
+import type { PropType } from "vue"
+
 defineProps({
   is: {
-    type: String,
+    type: String as PropType<"div" | "form">,
     default: () => "div"
   }
 })
