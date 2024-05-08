@@ -1,22 +1,14 @@
 <script lang="ts" setup>
-import type { PropType } from "vue"
 import { computed } from "vue"
+import type { ButtonHTMLAttributes } from "@vue/runtime-dom"
 
-type ButtonType = "button" | "submit" | "reset"
+interface Props extends /* @vue-ignore */ ButtonHTMLAttributes {
+  color?: "primary" | "warning" | "danger" | "success" | "default"
+}
 
-const props = defineProps({
-  type: {
-    type: String as PropType<ButtonType>,
-    default: "button"
-  },
-  color: {
-    type: String,
-    default: () => "default"
-  },
-  disabled: {
-    type: Boolean,
-    default: () => false
-  }
+const props = withDefaults(defineProps<Props>(), {
+  type: "button",
+  color: "default"
 })
 
 const classButton = computed(() => {
@@ -31,12 +23,12 @@ const classButton = computed(() => {
       return "bg-green-700 hover:bg-green-800"
     default:
       return "bg-neutral-700 hover:bg-neutral-800"
-    }
+  }
 })
 </script>
 
 <template>
-  <button :type :class="[classButton, 'text-sm rounded-lg px-3 py-1.5 text-center text-white flex gap-2'].join(' ')" :disabled>
+  <button :class="[classButton, 'text-sm rounded-lg px-3 py-1.5 text-center text-white flex gap-2'].join(' ')">
     <slot></slot>
   </button>
 </template>
