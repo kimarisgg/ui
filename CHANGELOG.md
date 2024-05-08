@@ -1,8 +1,17 @@
 # Changelog
 
-## v0.1.0
+## v0.2.0
 
-### Features:
+- Moved some dependencies to `peerDependency`
+- Updated `Button`
+- Updated `Switch`
+- Updated `Dialog`
+- New Components:
+  - `FormGroup`
+  - `FormInput`
+  - `PinInput`
+
+## v0.1.0
 
 - New components:
   - `Button`
