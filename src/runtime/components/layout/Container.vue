@@ -3,7 +3,7 @@ import type { PropType } from "vue"
 
 defineProps({
   is: {
-    type: String as PropType<"div" | "form">,
+    type: String as PropType<"div" | "form" | "main">,
     default: () => "div"
   }
 })
