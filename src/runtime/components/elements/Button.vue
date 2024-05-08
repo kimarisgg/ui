@@ -7,7 +7,6 @@ interface Props extends /* @vue-ignore */ ButtonHTMLAttributes {
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  type: "button",
   color: "default"
 })
 
