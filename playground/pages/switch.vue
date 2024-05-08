@@ -1,6 +1,7 @@
+<script lang="ts" setup>
+const model = ref<boolean>()
+</script>
+
 <template>
-  <div class="flex gap-2 items-center justify-center">
-    <ULabel for-id="switch-1">Toggle</ULabel>
-    <USwitch id="switch-1">Toggle</USwitch>
-  </div>
+  <USwitch id="test-switch" v-model="model">Switch me!</USwitch>
 </template>
