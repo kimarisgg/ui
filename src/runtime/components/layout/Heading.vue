@@ -1,15 +1,15 @@
 <script lang="ts" setup>
-import { computed } from "vue"
+import { computed, type PropType } from "vue"
 
 const props = defineProps({
-  as: {
-    type: String,
+  is: {
+    type: String as PropType<"h1" | "h2" | "h3" | "h4" | "h5" | "h6">,
     default: () => "h1"
   }
 })
 
 const componentClass = computed(() => {
-  switch (props.as) {
+  switch (props.is) {
     case "h1":
       return "text-4xl"
     case "h2":
@@ -25,7 +25,7 @@ const componentClass = computed(() => {
 </script>
 
 <template>
-  <component :is="as" :class="[componentClass, 'font-semibold'].join(' ')">
+  <component :is :class="[componentClass, 'font-semibold'].join(' ')">
     <slot />
   </component>
 </template>
