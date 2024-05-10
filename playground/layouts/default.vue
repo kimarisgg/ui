@@ -6,6 +6,7 @@
       <template #menu-items>
         <UNavMenuItem href="/button"> Button </UNavMenuItem>
         <UNavMenuItem href="/card"> Card </UNavMenuItem>
+        <UNavMenuItem href="/chip"> Chip </UNavMenuItem>
         <UNavMenuItem href="/dialog"> Dialog </UNavMenuItem>
         <UNavMenuItem href="/heading"> Heading </UNavMenuItem>
         <UNavMenuItem href="/forms"> Forms </UNavMenuItem>
@@ -17,7 +18,7 @@
     </UNavMenu>
   </header>
   <UContainer class="max-w-7xl">
-    <main class="flex flex-col gap-4">
+    <main class="flex flex-col gap-4 items-center">
       <slot></slot>
     </main>
   </UContainer>
