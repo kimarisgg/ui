@@ -10,6 +10,6 @@ defineProps({
 <template>
   <div class="relative">
     <slot />
-    <span v-if="show" class="absolute top--1 right--1 rounded-full bg-red-400 p-1"></span>
+    <span v-if="show" class="absolute top--0.5 right--0.5 rounded-full bg-red-400 p-1"></span>
   </div>
 </template>
