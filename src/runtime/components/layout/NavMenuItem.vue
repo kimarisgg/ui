@@ -1,12 +1,10 @@
 <script setup lang="ts">
-import { NavigationMenuItem } from "radix-vue"
-
 defineProps({
   isExternal: {
     type: Boolean,
     default: () => false
   },
-  href: {
+  to: {
     type: String,
     default: () => "/"
   }
@@ -14,9 +12,7 @@ defineProps({
 </script>
 
 <template>
-  <NavigationMenuItem>
-    <NuxtLink class="font-semibold text-lg" :href>
-      <slot></slot>
-    </NuxtLink>
-  </NavigationMenuItem>
+  <NuxtLink class="hover:text-neutral-400" active-class="font-semibold" :to>
+    <slot></slot>
+  </NuxtLink>
 </template>

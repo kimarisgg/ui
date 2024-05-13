@@ -2,22 +2,22 @@
 
 <template>
   <header>
-    <UNavMenu>
+    <UNavMenu position="center">
       <template #menu-items>
-        <UNavMenuItem href="/audio-player"> AudioPlayer </UNavMenuItem>
-        <UNavMenuItem href="/button"> Button </UNavMenuItem>
-        <UNavMenuItem href="/card"> Card </UNavMenuItem>
-        <UNavMenuItem href="/chip"> Chip </UNavMenuItem>
-        <UNavMenuItem href="/dialog"> Dialog </UNavMenuItem>
-        <UNavMenuItem href="/heading"> Heading </UNavMenuItem>
-        <UNavMenuItem href="/forms"> Forms </UNavMenuItem>
-        <UNavMenuItem href="/lightbox"> Lightbox </UNavMenuItem>
-        <UNavMenuItem href="/pin-input"> PinInput </UNavMenuItem>
-        <UNavMenuItem href="/popover"> Popover </UNavMenuItem>
-        <UNavMenuItem href="/progressbar"> ProgressBar </UNavMenuItem>
-        <UNavMenuItem href="/skeleton"> Skeleton </UNavMenuItem>
-        <UNavMenuItem href="/switch"> Switch </UNavMenuItem>
-        <UNavMenuItem href="/tooltip"> Tooltip </UNavMenuItem>
+        <UNavMenuItem to="/audio-player"> AudioPlayer </UNavMenuItem>
+        <UNavMenuItem to="/button"> Button </UNavMenuItem>
+        <UNavMenuItem to="/card"> Card </UNavMenuItem>
+        <UNavMenuItem to="/chip"> Chip </UNavMenuItem>
+        <UNavMenuItem to="/dialog"> Dialog </UNavMenuItem>
+        <UNavMenuItem to="/heading"> Heading </UNavMenuItem>
+        <UNavMenuItem to="/forms"> Forms </UNavMenuItem>
+        <UNavMenuItem to="/lightbox"> Lightbox </UNavMenuItem>
+        <UNavMenuItem to="/pin-input"> PinInput </UNavMenuItem>
+        <UNavMenuItem to="/popover"> Popover </UNavMenuItem>
+        <UNavMenuItem to="/progressbar"> ProgressBar </UNavMenuItem>
+        <UNavMenuItem to="/skeleton"> Skeleton </UNavMenuItem>
+        <UNavMenuItem to="/switch"> Switch </UNavMenuItem>
+        <UNavMenuItem to="/tooltip"> Tooltip </UNavMenuItem>
       </template>
     </UNavMenu>
   </header>
