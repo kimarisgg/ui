@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.3.0
+
+- Reworked `Tooltip`
+- Updated `Heading`
+- Updated `Container`
+- Updated `Skeleton`
+- New Components:
+  - `Chip`
+  - `Lightbox`
+
 ## v0.2.0
 
 - Moved some dependencies to `peerDependency`
