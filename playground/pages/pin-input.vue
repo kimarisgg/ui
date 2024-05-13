@@ -9,11 +9,4 @@ const value = ref<string[]>([])
     <span>Value: {{ value.join("") }}</span>
     <UPinInput v-model="value" :length="6" @completed="isCompleted = true"></UPinInput>
   </div>
-  <input
-    type="text"
-    tabindex="-1"
-    aria-hidden="true"
-    value=""
-    style="transform: translateX(-100%); position: absolute; pointer-events: none; opacity: 0; margin: 0"
-  />
 </template>
