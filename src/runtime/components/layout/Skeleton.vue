@@ -1,12 +1,5 @@
-<script lang="ts" setup>
-defineProps({
-  extraClass: {
-    type: String,
-    default: () => ""
-  }
-})
-</script>
+<script lang="ts" setup></script>
 
 <template>
-  <div :class="['animate-pulse bg-neutral-800', extraClass].join(' ')" />
+  <div class="animate-pulse bg-neutral-800" />
 </template>
