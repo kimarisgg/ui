@@ -1,11 +1,7 @@
-<script setup lang="ts">
-import {
-  DialogClose
-} from 'radix-vue'
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <DialogClose as-child>
+  <div>
     <slot></slot>
-  </DialogClose>
+  </div>
 </template>
