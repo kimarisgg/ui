@@ -6,11 +6,11 @@ import { computed, ref } from "vue"
 const props = defineProps({
   src: {
     type: String,
-    default: ""
+    required: true
   },
   type: {
     type: String,
-    default: "audio/ogg"
+    required: true
   }
 })
 
