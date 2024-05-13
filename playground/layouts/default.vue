@@ -12,6 +12,7 @@
         <UNavMenuItem href="/forms"> Forms </UNavMenuItem>
         <UNavMenuItem href="/lightbox"> Lightbox </UNavMenuItem>
         <UNavMenuItem href="/pin-input"> PinInput </UNavMenuItem>
+        <UNavMenuItem href="/popover"> Popover </UNavMenuItem>
         <UNavMenuItem href="/skeleton"> Skeleton </UNavMenuItem>
         <UNavMenuItem href="/switch"> Switch </UNavMenuItem>
         <UNavMenuItem href="/tooltip"> Tooltip </UNavMenuItem>

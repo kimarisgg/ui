@@ -50,13 +50,8 @@ const visibility = computed(() => {
 </script>
 
 <template>
-  <div
-    class="inline-block"
-    @mouseover="handleTrigger('hover', 'enter')"
-    @mouseleave="handleTrigger('hover', 'leave')"
-    @click="handleTrigger('click')"
-  >
-    <div class="inline-block" ref="base">
+  <div class="inline-block" @mouseover="handleTrigger('hover', 'enter')" @mouseleave="handleTrigger('hover', 'leave')">
+    <div class="inline-block" ref="base" @click="handleTrigger('click')">
       <slot></slot>
     </div>
     <div
