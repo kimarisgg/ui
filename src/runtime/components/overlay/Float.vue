@@ -34,13 +34,9 @@ const handleTrigger = (type: TriggerType, hoverTrigger: HoverTriggerType = null)
     show.value = !show.value
   } else if (type === props.trigger) {
     isHover.value = hoverTrigger === "enter"
-    if (isHover.value) {
-      show.value = true
-    } else {
-      setTimeout(() => {
-        show.value = isHover.value
-      }, 750)
-    }
+    setTimeout(() => {
+      show.value = isHover.value
+    }, 500)
   }
 }
 
