@@ -12,7 +12,6 @@
         <UNavMenuItem to="/heading"> Heading </UNavMenuItem>
         <UNavMenuItem to="/forms"> Forms </UNavMenuItem>
         <UNavMenuItem to="/lightbox"> Lightbox </UNavMenuItem>
-        <UNavMenuItem to="/pin-input"> PinInput </UNavMenuItem>
         <UNavMenuItem to="/popover"> Popover </UNavMenuItem>
         <UNavMenuItem to="/progressbar"> ProgressBar </UNavMenuItem>
         <UNavMenuItem to="/skeleton"> Skeleton </UNavMenuItem>
