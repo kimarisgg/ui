@@ -1,5 +1,18 @@
 # Changelog
 
+## v0.4.0
+
+- Removed `PinInput`
+- Removed `radix-vue` dependency
+- Refactor `Dialog`
+- Refactor `Lightbox`
+- Refactor `NavMenu` & `NavMenuItem`
+- New composables `isModalOpen` and `isScrollable`
+- New Components:
+  - `AudioPlayer`
+  - `Popover`
+  - `ProgressBar`
+
 ## v0.3.0
 
 - Reworked `Tooltip`
