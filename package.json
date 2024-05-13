@@ -27,6 +27,7 @@
     "@floating-ui/vue": "^1.0.6",
     "@nuxt/kit": "^3.11.2",
     "@unocss/nuxt": "^0.60.2",
+    "@vueuse/core": "^10.9.0",
     "nuxt-lucide-icons": "^1.0.4",
     "radix-vue": "^1.7.4"
   },
