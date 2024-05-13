@@ -8,4 +8,8 @@
       <LucideInbox />
     </UButton>
   </UChip>
+
+  <UChip :show="true" text="1">
+    <LucideInbox />
+  </UChip>
 </template>
