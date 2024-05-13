@@ -66,6 +66,6 @@ export default defineNuxtModule<ModuleOptions>({
       watch: false
     })
 
-    // addImportsDir(resolve(runtimeDir, "composables"))
+    addImportsDir(resolve(runtimeDir, "composables"))
   }
 })
